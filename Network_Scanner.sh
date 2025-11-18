@@ -1,5 +1,7 @@
 #!/bin/bash
 
+CLEAR
+
 echo "--- 🕵️ Full Subnet Scanner (IP to MAC & Hostname) ---"
 
 # --- Configuration ---

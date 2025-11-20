@@ -1,10 +1,3 @@
-//
-//  Test file.swift
-//  
-//
-//  Created by Peter L Scott on 11/20/25.
-//
-
 <#
 .SYNOPSIS
   Query a computer by IP or hostname and display system details.

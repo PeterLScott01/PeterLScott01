@@ -76,9 +76,8 @@ Clear-Host
 
 # If the script is dot-sourced we avoid prompting; otherwise call the function.
 if ($MyInvocation.InvocationName -eq '.') {
-	Write-Verbose 'Script was dot-sourced; not prompting automatically.' -Verbose
+	Write-Verbose 'Script was dot-sourced; running prompt anyway.'
 }
-else {
-	Resolve-NameOrIP
-}
+
+Resolve-NameOrIP
 

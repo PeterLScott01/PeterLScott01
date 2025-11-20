@@ -78,7 +78,7 @@ while (-not (Test-IPFormat $endIP)) {
 
 # Extract network info from start IP (treat as /24)
 $startParts = $startIP.Split('.')
-$networkPrefix = "$($startParts[0]).$($startParts[1]).$($startParts[2])"
+# Removed unused $networkPrefix variable since it was assigned but never used
 
 # Convert IPs to integers for range calculation
 $startInt = ConvertIPtoInteger $startIP

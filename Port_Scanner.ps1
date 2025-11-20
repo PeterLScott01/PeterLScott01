@@ -1,3 +1,5 @@
+Clear-Host
+
 # Port Scanner Script
 # Prompts for an IP address and scans for common open ports
 
